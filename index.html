@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Hair Styler</title>
+  </head>
+  <body>
+    <main>
+      <section class="screen">
+        <article class="screen-card card-1">
+          <h2 class="card-title">
+            ФЕН и СТАЙЛЕР <br />
+            в уникальном дизайне
+          </h2>
+          <span class="card-badge">2 в 1</span>
+
+          <div class="card-images">
+            <div class="card-image-left">
+              <span class="card-badge__small">Фен</span>
+              <img
+                src="assets/img/styler-left-1.webp"
+                width="720"
+                height="1280"
+                alt="Фен-стайлер"
+                loading="lazy"
+              />
+            </div>
+
+            <picture>
+              <source
+                srcset="assets/img/styler-1-mobile.webp"
+                media="(max-width: 768px)"
+                type="image/webp"
+              />
+              <source srcset="assets/img/styler-1.webp" type="image/webp" />
+              <img
+                src="assets/img/styler-1.webp"
+                alt="Фен-стайлер"
+                width="1326"
+                height="1080"
+                fetchpriority="high"
+              />
+            </picture>
+
+            <div class="card-image-right">
+              <span class="card-badge__small">Стайлер</span>
+              <img
+                src="assets/img/styler-right-1.webp"
+                width="720"
+                height="1280"
+                alt="Фен-стайлер"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="screen">
+        <article class="screen-card card-2">
+          <div class="card-feature">
+            <img
+              src="assets/icons/slide-2-mobile.svg"
+              class="card-feature__icon"
+              alt=""
+            />
+            <span>Лёгкость и&nbsp;комфорт<br />в&nbsp;руке</span>
+          </div>
+
+          <div class="card-media">
+            <div class="star-16">
+              <img src="assets/icons/star-16.svg" alt="Star" /><span
+                >Не тяжелее чашки кофе</span
+              >
+            </div>
+            <picture>
+              <source
+                srcset="assets/img/styler-2-mobile.webp"
+                media="(max-width: 768px)"
+                type="image/webp"
+              />
+              <source srcset="assets/img/styler-2.webp" type="image/webp" />
+              <img
+                src="assets/img/styler-2.webp"
+                alt="Фен-стайлер"
+                width="669"
+                height="800"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+
+          <div class="card-content">
+            <h2 class="card-title">
+              <span class="desktop-only">супер-лёгкий</span>
+              <span class="mobile-only">суперлёгкий</span>
+            </h2>
+          </div>
+
+          <p class="card-description">
+            Уменьшает усталость рук при&nbsp;сушке волос, делая процедуру
+            удобной и приятной даже после напряжённого рабочего дня.
+          </p>
+
+          <span class="card-badge__small card-2__badge">500 г</span>
+        </article>
+      </section>
+
+      <section class="screen">
+        <article class="screen-card card-3">
+          <div class="card-feature">
+            <img
+              src="assets/icons/slide-3-mobile.svg"
+              class="card-feature__icon"
+              alt=""
+            />
+            <span>Инновационный японский мотор</span>
+          </div>
+
+          <h2 class="card-title">
+            Для ценителей
+            <span class="card-title--highlight">
+              комфорта <br />
+              и&nbsp;качества
+            </span>
+            <span class="card-title-line--small"
+              >в&nbsp;уходе&nbsp;за волосами</span
+            >
+          </h2>
+          <p class="card-description">Бесщеточный мотор BLDC</p>
+
+          <div class="card-media">
+            <div class="star-16">
+              <img src="assets/icons/star-16.svg" alt="Star" /><span
+                >Салонная мощность</span
+              >
+            </div>
+            <picture>
+              <source
+                srcset="assets/img/styler-3-mobile.webp"
+                media="(max-width: 768px)"
+                type="image/webp"
+              />
+              <source srcset="assets/img/styler-3.webp" type="image/webp" />
+              <img
+                src="assets/img/styler-3-mobile.webp"
+                alt="Фен-стайлер"
+                width="320"
+                height="407"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </article>
+      </section>
+    </main>
+    <nav class="slide-wheel" aria-label="Навигация по слайдам">
+      <div class="slide-wheel__ring">
+        <svg
+          class="slide-wheel__ring-svg"
+          viewBox="0 0 706 706"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <defs>
+            <filter
+              id="ring-inner-shadow"
+              x="-5%"
+              y="-5%"
+              width="110%"
+              height="110%"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="5" dy="7" />
+              <feGaussianBlur stdDeviation="1.9" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.26 0"
+              />
+              <feBlend mode="normal" in2="shape" result="effect1_innerShadow" />
+            </filter>
+          </defs>
+          <g filter="url(#ring-inner-shadow)">
+            <circle
+              cx="353"
+              cy="353"
+              r="347.5"
+              stroke="#625B56"
+              stroke-width="10.97"
+            />
+          </g>
+        </svg>
+        <div class="slide-wheel__item" data-slide="0">
+          <button class="slide-wheel__btn is-active" aria-label="Слайд 1">
+            <span class="slide-wheel__label">фен&#8209;стайлер<br />2 в 1</span>
+          </button>
+        </div>
+
+        <div class="slide-wheel__item" data-slide="1">
+          <button class="slide-wheel__btn" aria-label="Слайд 2">
+            <span class="slide-wheel__label">суперлёгкий</span>
+          </button>
+        </div>
+
+        <div class="slide-wheel__item" data-slide="2">
+          <button class="slide-wheel__btn" aria-label="Слайд 3">
+            <span class="slide-wheel__label">Инновационный японский мотор</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
