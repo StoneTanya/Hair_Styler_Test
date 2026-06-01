@@ -150,7 +150,8 @@ body {
 
   @include laptop {
     max-width: 960px;
-    max-height: 660px;
+    max-height: 88vh;
+    overflow: hidden;
     padding: 30px 30px 0;
     border-radius: 55px;
     gap: 10px;
@@ -319,6 +320,19 @@ body {
       color: #4b4b4b;
       background: #ffffff;
       align-self: flex-end;
+    }
+  }
+
+  @include laptop {
+    picture {
+      max-width: 480px;
+      max-height: 400px;
+    }
+
+    .card-image-left,
+    .card-image-right {
+      max-width: 170px;
+      max-height: 360px;
     }
   }
 
