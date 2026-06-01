@@ -148,6 +148,38 @@ body {
     }
   }
 
+  @include laptop {
+    max-width: 960px;
+    max-height: 660px;
+    padding: 30px 30px 0;
+    border-radius: 55px;
+    gap: 10px;
+
+    h2 {
+      font-size: 36px;
+    }
+
+    .card-badge {
+      font-size: 40px;
+      padding: 7px 22px;
+    }
+
+    .card-badge__small {
+      font-size: 20px;
+      padding: 7px 20px;
+    }
+
+    .star-16 {
+      width: 130px;
+      height: 130px;
+
+      span {
+        font-size: 16px;
+        width: 90px;
+      }
+    }
+  }
+
   @include mobile {
     border-radius: 0;
     padding: 0;
@@ -476,6 +508,18 @@ body {
     filter: blur(167px);
   }
 
+  @include laptop {
+    picture {
+      max-width: 460px;
+    }
+
+    .card-content {
+      .card-title {
+        font-size: 46px;
+      }
+    }
+  }
+
   @include mobile {
     display: flex;
     flex-direction: column;
@@ -613,6 +657,16 @@ body {
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
+    }
+  }
+
+  @include laptop {
+    .card-title {
+      font-size: 34px;
+    }
+
+    .card-description {
+      font-size: 26px;
     }
   }
 

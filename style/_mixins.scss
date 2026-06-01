@@ -16,8 +16,14 @@
   }
 }
 
+@mixin laptop {
+  @media (min-width: 1200px) and (max-width: 1440px) {
+    @content;
+  }
+}
+
 @mixin desktop-wide {
-  @media (min-width: 1200px) {
+  @media (min-width: 1441px) {
     @content;
   }
 }
