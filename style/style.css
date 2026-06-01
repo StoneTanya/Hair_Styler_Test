@@ -211,6 +211,35 @@ body {
   text-transform: uppercase;
   color: #625b56;
 }
+@media (min-width: 1200px) and (max-width: 1560px) {
+  .screen-card {
+    max-width: 960px;
+    max-height: 88vh;
+    overflow: hidden;
+    padding: 30px 30px 0;
+    border-radius: 55px;
+    gap: 10px;
+  }
+  .screen-card h2 {
+    font-size: 36px;
+  }
+  .screen-card .card-badge {
+    font-size: 40px;
+    padding: 7px 22px;
+  }
+  .screen-card .card-badge__small {
+    font-size: 20px;
+    padding: 7px 20px;
+  }
+  .screen-card .star-16 {
+    width: 130px;
+    height: 130px;
+  }
+  .screen-card .star-16 span {
+    font-size: 16px;
+    width: 90px;
+  }
+}
 @media (max-width: 768px) {
   .screen-card {
     border-radius: 0;
@@ -338,6 +367,17 @@ body {
   color: #4b4b4b;
   background: #ffffff;
   align-self: flex-end;
+}
+@media (min-width: 1200px) and (max-width: 1560px) {
+  .card-1 picture {
+    max-width: 480px;
+    max-height: 400px;
+  }
+  .card-1 .card-image-left,
+  .card-1 .card-image-right {
+    max-width: 170px;
+    max-height: 360px;
+  }
 }
 @media (max-width: 768px) {
   .card-1::before {
@@ -509,6 +549,14 @@ body {
   border-radius: 50%;
   filter: blur(167px);
 }
+@media (min-width: 1200px) and (max-width: 1560px) {
+  .card-2 picture {
+    max-width: 460px;
+  }
+  .card-2 .card-content .card-title {
+    font-size: 46px;
+  }
+}
 @media (max-width: 768px) {
   .card-2 {
     display: flex;
@@ -628,6 +676,14 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+@media (min-width: 1200px) and (max-width: 1560px) {
+  .card-3 .card-title {
+    font-size: 34px;
+  }
+  .card-3 .card-description {
+    font-size: 26px;
+  }
 }
 @media (max-width: 768px) {
   .card-3 {
